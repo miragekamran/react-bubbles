@@ -26,10 +26,14 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
+-     JSON Web Token, JWT for short, is the most used authentication protocol on the web. Tokens can be used to create secure authentication to privately routed pages.
+- [x] What steps can you take in your web apps to keep your data secure?
+-     Use protected routes and use async axios calls
+- [x] Describe how web servers work.
+-     Web servers store copies of your data and can read the code to serve to the client and render the data.
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+      create, post, get, update, put, delete, read
 
 
 ## Project Set Up
@@ -43,7 +47,7 @@ Follow these steps to set up and work on your project:
 - [x] Implement the project on this Branch, committing changes regularly.
 - [x] Push commits: git push origin `<firstName-lastName>`.
 - [x] **RUN** `npm install` at the root to retrieve all the dependencies for the node server. You will not need to create any react apps here nor will you need to install any other dependencies. You should have all you need in this repo.
-- [ ] **LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interact with the **API**.
+- [x] **LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interact with the **API**.
 - [ ] **RUN** `npm start` to get your API up and running on `http://localhost:5000`. This is the **URL** you're going to need to use within your React app in order to make AJAX requests for data.
 - [ ] **LOOK** at your `client` directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
 - [ ] **cd** into `client` and run `npm install` to retrieve the client side dependencies.
